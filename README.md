@@ -23,6 +23,28 @@ npm start
 yarn start
 ```
 
+## Lint
+To analyze the code statically using ESLint, use the following command:
+```bash
+npm run lint
+# OR
+yarn lint
+```
+
+## Test
+To run the tests, run the following command:
+```bash
+npm run test
+# OR
+yarn test
+```
+If you want to watch the files while the tests run, use the following command instead:
+```bash
+npm run test:watch
+# OR
+yarn test:watch
+```
+
 ## Build
 To generate the production build, run the following command:
 ```bash
