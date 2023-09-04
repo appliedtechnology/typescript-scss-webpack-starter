@@ -1,10 +1,10 @@
 {
-  "name": "typescript-tailwind-webpack-starter",
+  "name": "typescript-webpack-sass-starter",
   "version": "1.0.0",
-  "description": "A modern Webpack 5, Tailwind CSS 3, and TypeScript Web Apps Starter Template",
+  "description": "A modern Webpack, SCSS, and TypeScript Web Apps Starter Template",
   "private": true,
   "scripts": {
-    "start": "webpack serve --mode=development --open",
+    "dev": "webpack serve --mode=development --open",
     "build": "webpack --config webpack-prod.config.js",
     "test": "jest",
     "lint": "eslint ./src/**/*.ts",
@@ -26,6 +26,8 @@
     "postcss": "^8.4.4",
     "postcss-loader": "^6.2.1",
     "postcss-preset-env": "^7.0.1",
+    "sass": "^1.66.1",
+    "sass-loader": "^13.3.2",
     "style-loader": "^3.3.1",
     "tailwindcss": "^3.0.1",
     "ts-jest": "^29.1.1",

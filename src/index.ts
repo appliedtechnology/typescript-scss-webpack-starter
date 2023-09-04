@@ -1,7 +1,7 @@
-import "./styles/index.css";
+import "./styles/index.scss";
 
 export const greet = () => {
-  return "Hello World from Code with Ahsan!";
+  return "Hello World from School of Applied Technology 👋🏼";
 }
 
 const main = () => {
