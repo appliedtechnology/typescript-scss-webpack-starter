@@ -17,9 +17,9 @@ yarn
 
 Then run the following command to start the dev server:
 ```bash
-npm start
+npm run dev
 # OR
-yarn start
+yarn dev
 ```
 
 ## Lint
