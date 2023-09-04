@@ -3,6 +3,6 @@ module.exports = {
   preset: 'ts-jest',
   testEnvironment: 'node',
   moduleNameMapper: {
-    "\\.(css|sass)$": "identity-obj-proxy",
+    "\\.(css|s[ac]ss)$": "identity-obj-proxy",
   },
 };
